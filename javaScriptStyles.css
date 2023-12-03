@@ -1,0 +1,7 @@
+.task-details {
+  display: none;
+}
+
+.show-task-details {
+  display: block;
+}

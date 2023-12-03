@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  main > .container > .row {
+    align-items: stretch;
+  }
+
+  .show-completed-cont {
+    align-self: center;
+  }
+
+  .new-task-cont,
+  .active-task-cont,
+  .completed-task-cont {
+    width: 100%;
+  }
+
+  input#task-title {
+    width: 100%;
+  }
+
+  #show-completed {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  #task-completed {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}

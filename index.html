@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="javaScriptStyles.css">
+  <link rel="stylesheet" href="query.css">
+  <title>ToDoApp</title>
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <div class="row">
+        <div class="brand-log">ToDoApp</div>
+        <div class="date"></div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="show-completed-cont">
+          <input type="checkbox" name="" id="show-completed" />
+          <label for="show-completed">Show completed</label>
+        </div>
+
+        <div class="task-container">
+          <div class="new-task-cont row">
+            <input type="text" id="new-task" class="new-task" maxlength="32" placeholder="New task..." />
+          </div>
+          <!-- <div class="active-task-cont row">
+            <div class="active-task-overview row">
+              <input type="checkbox" id="task-completed" />
+              <input type="text" name="" id="task-title" class="task-title" value="Running">
+              <span class="remove-task">Remove</span>
+              <img src="caret-down.svg" class="caret-down" alt="caret-down" />
+            </div>
+
+            <div class="task-details row">
+              <div class="task-note-cont">
+                <h4>Notes</h4>
+                <textarea name="" id="task-notes" class="task-notes" maxlength="512"></textarea>
+              </div>
+
+              <div class="priority-cont row">
+                <h4>Priority</h4>
+                <div class="priorities">
+                  <span class="priority priority-high">High</span>
+                  <span class="priority priority-medium">Medium</span>
+                  <span class="priority priority-low">Low</span>
+                  <span class="priority priority-none">None</span>
+                </div>
+              </div>
+            </div>
+
+          </div> -->
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
